@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  margin-bottom: 2em;
+
+}
+
+h3 {
+  margin-bottom: 2em;
+}
+
+#submissionform {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#submitbutton {
+  font-size: large;
+  margin-top: 10px;
+}
+.grid {
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  width: 90vmin;
+  margin: auto;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  background-color: bisque;
+  margin: 5px;
+  z-index: 1;
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.two {
+  background-color: red;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+
+.three {
+  background-color: aqua;
+  grid-column: 1;
+  grid-row: 1 / 5;
+}
+
+.four {
+  background-color: blueviolet;
+  z-index: 1;
+  grid-column: 1 / 4;
+  grid-row: 3;
+}
+
+.five {
+  background-color: darkblue;
+  grid-column: 2;
+  grid-row: 1/4;
+}
+
+.six {
+  background-color: darkslategray;
+  grid-column: 3;
+  grid-row: 4;
+}
